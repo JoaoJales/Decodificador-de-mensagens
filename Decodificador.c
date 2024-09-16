@@ -9,14 +9,14 @@ int main(){
     int b; //[-100, 100]
     int decimal;
     char mensagem[101], aux[3];
-    unsigned int i;
+    unsigned int i, j;
     int x;
 
 
     printf("Digite a quantidade de mensagens interceptadas: ");
     scanf("%u", &numMensagens);
 
-    for (i = 0; i < numMensagens; i++)
+    for (j = 0; j < numMensagens; j++)
     {
         printf("Digite o valor de B: ");
         scanf("%d", &b);
