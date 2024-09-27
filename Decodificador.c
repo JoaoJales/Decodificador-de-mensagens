@@ -7,7 +7,7 @@
 int main(){
     unsigned int numMensagens; //[1,10000]
     int b; //[-100, 100]
-    int decimal;
+    int decimal; 
     char mensagem[101], aux[3];
     unsigned int i, j;
     int x;
