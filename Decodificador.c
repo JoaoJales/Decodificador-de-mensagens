@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <math.h>
-#include <string.h>
 #include <stdlib.h>
 #include "Funcao.h"
 
@@ -9,14 +7,14 @@ int main(){
     int b; //[-100, 100]
     int decimal; 
     char mensagem[101], aux[3];
-    unsigned int i, j;
-    int x;
+    int i, j; //Estrutura de repetição
+    int x; // parametro da func_val
 
 
     printf("Digite a quantidade de mensagens interceptadas: ");
     scanf("%u", &numMensagens);
 
-    for (j = 0; j < numMensagens; j++)
+    for (j = 0; j < (int)numMensagens; j++)
     {
         printf("Digite o valor de B: ");
         scanf("%d", &b);

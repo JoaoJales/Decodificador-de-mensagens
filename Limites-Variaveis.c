@@ -16,7 +16,6 @@ int main(){
     printf("MAXIMO SHORT INT: %d\n", SHRT_MAX);
     printf("MINIMO SHORT INT: %d\n", SHRT_MIN);
     printf("-----------------------------------------------------\n");
-
     printf("MAXIMO UNSIGNED INT: %u\n", UINT_MAX);
     printf("-----------------------------------------------------\n");
     printf("MAXIMO LONG INT: %ld\n", LONG_MAX);
