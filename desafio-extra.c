@@ -2,7 +2,7 @@
 
 
 int main(){
-    float n1,n2,n3 = 0, ppd, EU = 0, notaFinal;
+    float n1,n2,n3, ppd, EU = 0, notaFinal;
     int vericadorEU, verificadorN3;
     
     do
@@ -56,18 +56,25 @@ int main(){
 
         } while (1);  
 
-        if (n2 > n1)
+        if (n2 > n1 && n3 > n1)
         {
             notaFinal = n3 + n2 + ppd + EU;
-        }else if(n1 > n2){
+
+        }else if(n1 > n2 && n3 > n2){
             notaFinal = n1 + n3 + ppd + EU;
-        }else{
+
+        }else if(n1 == n2 && n3 > n1){
             notaFinal = n3 + n2 + ppd + EU;
+
+        }else{
+            notaFinal = n1 + n2 + ppd + EU;
         }
         
     }else{
         notaFinal = n1 + n2 + ppd + EU;
     }
+    
+
 
     if (notaFinal > 10)
     {
