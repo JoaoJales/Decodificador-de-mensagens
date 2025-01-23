@@ -7,6 +7,10 @@
 - Digite o valor de B (Ficcional)
 - Digite a mensagem em Hexadecimal
 
+## Desafio Extra e Limite de variáveis
+- Atividade para calcular a nota final de uma aluno
+- Atividade para conhecer os limites de variáveis dentro do C, overflow, underflow (int, Short, Long, Long Long, unsigned, char)
+
 ## Grupo:
 - João Ricardo Jales Cirino
 - Felipe Lima Duarte
